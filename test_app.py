@@ -1,6 +1,8 @@
 # test_app.py
 
-from app import a,b,add
+from app import add
 
-def test_Addition():
-assert add(a,b)==10
+def test_addition():
+    a = 5
+    b = 5
+    assert add(a, b) == 10
