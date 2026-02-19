@@ -1,7 +1,7 @@
 #app.py
 
-a = 8
-b = 2
+a = 5
+b = 5
 
 def add(x,y):
 	return x+y
